@@ -53,15 +53,15 @@
 }
 .secondspan{
     color:#719a29;
-    }
-.navbar{
+}
+#navbar{
     display:flex;
     width:100%;
     justify-content:space-between;
     position:fixed;
     background-color: transparent;
 }
-.navbar ul{
+#navbar ul{
     display: flex;
     font-size:18px;
     margin:10px;
@@ -77,6 +77,9 @@
     border: none;
     margin:10px;
     font-size:18px;
+}
+.dropdown .btn:active{
+    color: #f6af42;
 }
 .ddcontent{
     display:none;
@@ -104,21 +107,20 @@
     display:block;
     cursor: pointer;
 }
-.navbar ul li{
+#navbar ul li{
     display:inline-block;
     position:relative;
     margin:10px;
 }
-.navbar ul li a{
+#navbar ul li a{
     font-family:Arial;
     color:#ffffff;
     text-decoration: none;
 }
-.navbar ul li a:hover, .navbar ul li a.active, .dropdown:hover .btn, .secondspan:hover, .firstspan{
+#navbar ul li a:hover, #navbar ul li a.active, .dropdown:hover .btn, .secondspan:hover, .firstspan{
     color:#f6af42;
     cursor: pointer;
 }
-
 .content{
     font-style: normal;
     display: flex;
@@ -139,7 +141,6 @@
     font-size:20px;
     text-align: center;
     line-height:1.5;
-
 }
 .button{
     padding:30px;
@@ -181,7 +182,6 @@
     background-color:transparent;
     color:#719a29;
     cursor: pointer;
-
 }
 
 /* banner ends */
